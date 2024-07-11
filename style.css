@@ -181,3 +181,44 @@ section#specs {
 }
 
 
+@media (max-width: 970px) {
+    header {
+        height: auto;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        width: 80%;
+    }
+
+    .descricao, .cameras24 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .descricao img, .cameras24 img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .titulo1 {
+        font-size: 28px;
+    }
+
+    .paragrafos {
+        font-size: 14px;
+    }
+
+    .cameras24 img {
+        max-width: 100%;
+    }
+}
